@@ -1,5 +1,5 @@
 // gitprofile.config.js
-
+const img_url_base = "https://aws1-bucket1-jg.s3.amazonaws.com/portfolio/"
 const config = {
   github: {
     username: 'josephgoff-git', // Your GitHub org/user name. (Required)
@@ -99,50 +99,50 @@ const config = {
       to: '2019',
     },
   ],
-
+  
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
       title: 'React AI Playground',
       description:
       "Use AI to build out complex web apps",
-      imageUrl: "https://socialwebappblobs.blob.core.windows.net/blobs/rpg.png",
+      imageUrl: img_url_base + "rpg.png",
       link: 'https://reactaiplayground.online',
     },
     {
       title: 'Inspire Connect',
       description:
       "Create a profile and start connecting",
-      imageUrl: 'https://socialwebappblobs.blob.core.windows.net/blobs/ico.png',
+      imageUrl: img_url_base + 'ico.png',
       link: 'https://inspireconnect.online',
     },
     {
       title: 'Sea Breeze Kitchen',
       description:
       "Check out the latest specials on our menu",
-      imageUrl: 'https://socialwebappblobs.blob.core.windows.net/blobs/sbk2.png',
+      imageUrl: img_url_base + 'sbk2.png',
       link: 'https://seabreezekitchen.online',
     },
     {
       title: 'Coup Online',
       description:
       "Play your favorite table top game online",
-      imageUrl: 'https://socialwebappblobs.blob.core.windows.net/blobs/pco.png',
+      imageUrl: img_url_base + 'pco.png',
       link: 'https://playcoup.online',
     },
     {
-      title: 'LTS Real Estate',
+      title: 'REIS Real Estate',
       description:
       "Browse property listings all over the country",
-      imageUrl: 'https://socialwebappblobs.blob.core.windows.net/blobs/lts.png',
+      imageUrl: img_url_base + 'lts.png',
       link: 'https://opendreamdesigns.com',
     },
     {
-      title: 'Experts On Call',
+      title: 'AI Video Generator',
       description:
-      "Find assistance for your greatest challenges",
-      imageUrl: 'https://socialwebappblobs.blob.core.windows.net/blobs/eoc.png',
-      link: 'https://expertsoncall.online',
+      "Create content from scratch using AI",
+      imageUrl: img_url_base + 'aivg.png',
+      link: 'https://opendreamai.online',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
