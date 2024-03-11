@@ -100,9 +100,10 @@ const GitProfile = ({ config }) => {
             let items = data.items
             let results = []
             for (let i=0;i<items.length;i++) {
-              if (items[i].name === "ReactAI" || items[i].name === "Inspire-Connect" ||
+              if (items[i].name === "React-AI" || 
+              items[i].name === "Inspire-Connect" ||
               items[i].name === "Sea-Breeze-Kitchen" ||
-              items[i].name === "LTS-Real-Estate"){
+              items[i].name === "REIS-Real-Estate"){
                 results.push(items[i])
               }
             }
