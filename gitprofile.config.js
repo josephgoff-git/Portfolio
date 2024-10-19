@@ -107,14 +107,14 @@ const config = {
       description:
       "Use AI to build out complex web apps",
       imageUrl: img_url_base + "rpg.png",
-      link: 'https://reactaiplayground.online',
+      link: 'https://reactaiplayground.com',
     },
     {
       title: 'Inspire Connect',
       description:
       "Create a profile and start connecting",
       imageUrl: img_url_base + 'ico.png',
-      link: 'https://inspireconnect.online',
+      link: 'https://inspireconnect.site',
     },
     {
       title: 'Sea Breeze Kitchen',
